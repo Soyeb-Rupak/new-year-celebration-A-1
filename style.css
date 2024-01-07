@@ -50,7 +50,7 @@ h1 {
 
 .new-year-img {
     text-align: center;
-  
+
 }
 
 .discount-title {
@@ -73,8 +73,9 @@ h1 {
     margin-bottom: 48px;
 
 }
+
 /* welcome section */
-.welcome-party-ection{
+.welcome-party-ection {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -82,27 +83,28 @@ h1 {
     background-repeat: no-repeat;
     max-width: 1440px;
     height: 600px;
-    margin: 250px  auto 120px;
+    margin: 250px auto 120px;
 }
 
-.welcome-heading{
+.welcome-heading {
     color: #FFF;
 
-font-family: Merriweather;
-font-size: 64px;
-font-style: normal;
-font-weight: 900;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
 }
-.welcome-description{
+
+.welcome-description {
     color: rgba(255, 255, 255, 0.80);
 
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
 
-.join-now-button{
+.join-now-button {
     color: #FFF;
 
     text-align: center;
@@ -111,19 +113,52 @@ font-weight: 400;
     font-style: normal;
     font-weight: 700;
 }
+
 /* Time Date and Place section */
-.time-and-place-section{
+.time-and-place-section {
     max-width: 1440px;
     height: 480px;
     margin: 50px auto;
-    background : linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
-   margin-top: 200px ;
-   display: flex;
-   align-items: center;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 
 }
 
-.description{
+.description {
     margin: 10px auto;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+span {
+    color: #F00;
+}
+
+.primary-button {
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    margin-top: 48px;
+
+}
+
+.coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.middle {
+    width: 360px;
+    height: 360px;
+    border: 15px solid red;
+    border-radius: 50%;
 }
