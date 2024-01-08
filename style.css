@@ -4,11 +4,13 @@
 
 /* Header Style start */
 .banner {
-    background-image: url(./Assets/Banner\ Image.png);
+    background-image:  url(./Assets/Banner\ Image.png);
     background-repeat: no-repeat;
     max-width: 1440px;
     height: 600px;
     margin: 50px auto;
+
+    opacity: 80%;
 }
 
 h1 {
@@ -35,6 +37,7 @@ h1 {
     max-width: 1440px;
     height: 600px;
     margin-top: 120px auto;
+    margin: 50px auto;
 }
 
 .discount-offer-text {
@@ -99,32 +102,42 @@ h1 {
     color: rgba(255, 255, 255, 0.80);
 
     font-family: Inter;
-    font-size: 18px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
 }
 
 .join-now-button {
     color: #FFF;
-
+background: none;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    margin-top: 80px;
+   
+    border: none;
+    
+}
+.join-now-button:hover{
+    background:red;
+    border-radius: 10px;
+    padding: 05px 10px 05px;
 }
 
 /* Time Date and Place section */
 .time-and-place-section {
-    max-width: 1440px;
+  width: 1340px;
     height: 480px;
-    margin: 50px auto;
+    margin-right: 120px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: flex;
     align-items: center;
     border-radius: 10px;
+    margin: 50px auto;
 
 }
 
@@ -147,18 +160,316 @@ span {
     background: #F00;
     color: #FFF;
     margin-top: 48px;
+    font-weight: 700;
 
+}
+.primary-button:hover{
+    background: white;
+    color: red;
 }
 
 .coming-soon {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 120px;
+    max-width: 1440px;
+    height: 480px;
+    margin-bottom: 120px;
+    margin: 50px auto;
+}
+.coming-soon-description{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+.left {
+    max-width: 480px;
+    max-height: 480px;
+    padding: 100px 50px 120px 100px;
+
+}
+
+.leftside-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 05px;
+}
+
+.leftside-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 15px;
 }
 
 .middle {
+    width: 480px;
+    height: 480px;
+
+
+}
+
+.middle-img {
     width: 360px;
     height: 360px;
     border: 15px solid red;
     border-radius: 50%;
+    padding: 30px;
+}
+
+.right {
+    max-width: 480px;
+    max-height: 480px;
+    padding: 100px 50px 05px 100px;
+}
+
+.rightside-heading {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.rightide-description{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.rightside-img {
+    margin-top: 50px;
+}
+
+section {
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+.holiday {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.holiday-title {
+    color: #070211;
+
+    font-family: Inter;
+    font-size: 24px;
+
+    font-weight: 500;
+}
+.holiday-description{
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+margin-top: 20px;
+}
+.holiday-offer {
+    color: #F00;
+
+
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+
+}
+.holiday-offer-amount{
+    color: #070211;
+}
+
+.holiday-img {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.holiday-right {
+    display: inline;
+    margin-left: 94px;
+}
+
+.holiday-middle {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 100px;
+
+}
+
+.holiday-bottom {
+
+    margin-top: 473px;
+}
+.image-container{
+
+    margin: 50px auto;
+    
+}
+.gift-image{
+    width: 400px;
+    padding: 10px;
+}
+.gift-title{
+    color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 10px;
+margin-left: 20px;
+}
+.gift-heading{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+margin-bottom: 15px;
+margin-left: 20px;
+}
+.gift-description{
+    margin-left: 20px;
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.subscription{
+    text-align: center;
+    margin-top: 120px;
+    background: rgba(255, 0, 0, 0.05);
+    max-width: 1440px;
+    height: 600px; 
+    border-radius: 10px;
+}
+.mail-sign{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.subscription-heading{
+    color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+margin-bottom: 30px;
+}
+.subscription-description{
+    margin-bottom: 20px;
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+.input-feild{
+    width: 438px;
+    height: 72px;
+    /* border-radius: 50px; */
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+background: #FFF;
+border: none;
+}
+
+.subscription-button{
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+
+footer{
+    background:#070211; 
+    margin: 120px auto;
+    height: 600px;
+    max-width: 1440px;
+}
+.footer-container{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.footer-left{
+    margin-left: 140px;
+    margin-top: 120px;
+}
+.address{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+.footer-right{
+    margin-right:220px ;
+    margin-top: 120px;
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+
+hr{
+    margin: 20px 120px 20px 140px;
+width: 1000px;
+height: 1px;
+height: 1px;
+background: rgba(255, 255, 255, 0)
+
+
+}
+.social-icon{
+    padding: 10px;
+   
+}
+.social-icon-container{
+    text-align: center;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    margin:50px 250px 10px 140px;
 }
